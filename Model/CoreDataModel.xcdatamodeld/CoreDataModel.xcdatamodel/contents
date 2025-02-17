@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23605" systemVersion="23H124" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Book" representedClassName="Book" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="String"/>
+        <attribute name="coverLink" optional="YES" attributeType="String"/>
+        <attribute name="pdfLink" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Music" representedClassName="Music" syncable="YES">
+        <attribute name="artist" optional="YES" attributeType="String"/>
+        <attribute name="imageLink" optional="YES" attributeType="String"/>
+        <attribute name="link" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Note" representedClassName="Note" syncable="YES">
+        <attribute name="body" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+</model>
